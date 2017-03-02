@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NodeRedAppIOTRT
+  host: NodeRedAppIOTRT
+  disk_quota: 1024M
+  services:
+  - NodeRedAppIOTRT-cloudantNoSQLDB
+  - NodeRedAppIOTRT-iotf-service
